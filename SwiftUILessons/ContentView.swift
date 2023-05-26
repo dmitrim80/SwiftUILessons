@@ -26,7 +26,7 @@ struct ContentView: View {
         List {
             ForEach(guestManager.guests) { guest in
                     Text("Guest Name: \(guest.name)")
-                    .padding()
+                    .padding().foregroundColor(.green)
                 
             }
         }
