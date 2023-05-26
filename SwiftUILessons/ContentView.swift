@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack{
-            Button("Add More Guests") {
+            Button("Add More Guests every second") {
                 guestManager.createRandomGuests()
             }.padding().foregroundColor(.purple)
             
