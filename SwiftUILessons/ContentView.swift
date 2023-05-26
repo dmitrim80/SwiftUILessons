@@ -16,7 +16,7 @@ struct ContentView: View {
         VStack{
             Button("Add More Guests") {
                 guestManager.createRandomGuests()
-            }.padding().foregroundColor(.red)
+            }.padding().foregroundColor(.purple)
             
             guestList
         }
